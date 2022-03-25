@@ -1,0 +1,24 @@
+{
+  "name": "fluence-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/parcel ./index.html"
+  },
+  "engines": {
+    "node": ">= 16.0.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fluencelabs/aqua": "0.6.0-272",
+    "@fluencelabs/aqua-dht": "0.2.5",
+    "@fluencelabs/aqua-lib": "0.3.4",
+    "@fluencelabs/fluence": "0.19.1",
+    "@fluencelabs/fluence-network-environment": "1.0.13",
+    "parcel": "2.0.0-rc.0",
+    "vue": "2.6.11"
+  }
+}
